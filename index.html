@@ -4,6 +4,9 @@
   <title>Profikio</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -19,117 +22,66 @@
         </button>
         <img src="images/logo.jpg" width = "38%">
       </div>
-
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="teacher.html">Teachers <span class="sr-only">(current)</span></a></li>
-          <li><a href="ta.html">TAs</a></li>
+          <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="howitworks.html">How it Works</a></li>
         </ul>
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
 
   <div class = "container">
-    <div class = "row">
+    
+    <div class="jumbotron">
+      <div class = "stressteach">
+        <img src = "images/stressed_teacher.jpg" class = "img-rounded" width = 300px height = auto>
+      </div>
+
       <h1>Profikio</h1>
       <p>Connecting teachers with the support they need.</p>
-      <h2>What is Profikio?</h2>
-      <p>
-        Profikio is an online marketplace that connects 6th-12th grade teachers with teaching assistants to grade and provide feedback on student assignments.
-      </p>
-      
-      <div class = "col-md-4">
-        <img src = "images/stressed_teacher.jpg" class = "img-rounded" width = "100%" height = auto>
-        <p>
-          Many teachers constantly feel overwhelmed with the number of tasks they are responsible for each day. These include planning lessons and units, classroom prep, managing students in the classroom, grading, parent outreach, and various administrative tasks. As a result, teachers are unable to focus on any particular aspect of their practice, such as planning innovative lessons for their students.
-        </p>
-        <a class="btn btn-primary btn-lg btn-block" href="teacher.html" role="button">Learn More</a>
-      </div>
 
-      <div class = "col-md-4">
-        <img src = "images/marketplace.jpg" class = "img-rounded" width = "100%" height = auto>
-        <p>
-          Profikio supports overwhelmed teachers by matching them with Teaching Assistants, typically students majoring in education, to help  grade student work. Profikio will allow teachers to identify the best TA (by subject, availability, and rating) that can grade an assignment and give students in-depth feedback within 1-3 days. This allows teachers to focus on other activities that impact their performance in the classroom, while also providing them with meaningful data on student progress.
-        </p>
-      </div>
-
-      <div class = "col-md-4">
-        <img src = "images/TA_studying.jpg" class = "img-rounded" width = "100%" height = auto>
-        <p>
-          Graduate and undergraduate students majoring in education but not yet student teaching might be interested in helping teachers, while simultaneously gaining exposure to real student work and assignments in their subject area. Not to mention extra income!
-        </p>
-        <a class="btn btn-primary btn-lg btn-block" href="ta.html" role="button">Learn More</a>
-      </div>
-
-    </div>
-
-    <div class = "row">
-      <h3>Who benefits?</h3>
-      <table class = "table">
-        <thead>
-          <tr>
-            <th>Teachers</th>
-            <th>Students</th>
-            <th>Teaching Assistants</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Better data, faster</th>
-            <th>More timely, in-depth feedback</th>
-            <th>Extra income</th>
-          </tr>
-          <tr>
-            <th>More time to innovate</th>
-            <th>Learn how to improve</th>
-            <th>Hands-on classroom experience</th>
-          </tr>
-        </tbody>
-      </table>
     </div>
 
     <div class="row">
-      <h2>Still interested? Participate in our Pilot!!!</h2>
-      <p>
-        Profikio is currently looking for teachers and teaching assistants to participate in a pilot of our service! Ideal teachers work in public middle or high schools teaching a core subject. Ideal TA's are current undergraduate or graduate students majoring in education. If you are interested, sign up below!
-      </p>
+      <div class = "col-md-8 letter">
+        <h2>Dear Teachers,</h2>
+        <p>
+          We know being a teacher can be overwhelming, and we are here to help. For now, this means connecting you with an online teaching assistant to help you grade student work. By relieving you of some of your grading, we hope you will have more time to focus on another aspect of your practice that will allow you to make an impact on your students, such as planning that perfect lesson, or really improving your classroom management techniques. 
+        </p>
+        <p>
+          Thank you for making a difference,
+        </p>
+        <p>
+          Team Profikio
+        </p>
+        <a class="btn btn-primary btn-lg btn-block" href="about.html" role="button">Learn More</a>
+      </div>
 
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Name</label>
-          <input type="text" class="form-control" id="enterName" placeholder="First and Last">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Email</label>
-          <input type="email" class="form-control" id="enterEmail" placeholder="Email">
-        </div>
-        
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> I'm a teacher
-          </label>
-        </div>
+      <div class = "col-md-4 pilot">
+        <h2>Participate in our Pilot</h2>
+        <p>
+          Profikio is currently looking for teachers to participate in a pilot of our service. Ideal teachers work in public middle or high schools teaching a core subject. If you are interested, sign up below!
+        </p>
 
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> I want to be a TA
-          </label>
-        </div>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="text" class="form-control" id="enterName" placeholder="First and Last">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Email</label>
+            <input  type="email" class="form-control" id="enterEmail" placeholder="Email">
+          </div>
+          
+          <button type="submit" class="btn btn-default">Submit</button>
 
-        <button type="submit" class="btn btn-default">Submit</button>
-
-      </form>
+        </form>
+      </div>
     </div>
-
   </div>
-  
-  
+    
 </body>
 </html>
